@@ -146,7 +146,7 @@ facebook:
   app_id                 :
   publisher              :
 og_image                 :  # Social media default site image
-gog_description           :  # Social media default site image description
+og_description           :  # Social media default site image description
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -214,6 +214,7 @@ kramdown:
   input: GFM
   hard_wrap: false
   auto_ids: true
+  footnote_nr: 1
   footnote_nr: 1
   entity_output: as_char
   toc_levels: 1..6
@@ -330,7 +331,7 @@ whitelist:
 #  Type
 #  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
 #  - Jekyll Archives plugin archive pages ~> type: jekyll-archives
-#  Path (examples)
+#  - Path (examples)
 #  - Archive page should exist at path when using Liquid method or you can
 #    expect broken links (especially with breadcrumbs enabled)
 #  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
